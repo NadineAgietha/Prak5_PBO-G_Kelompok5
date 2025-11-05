@@ -1,5 +1,3 @@
-package Prak5_PBO-G_Kelompok5;
-
 // Manager extends Abstract Class dan implements Interface
 public class Manager extends PegawaiAbstract implements InterfaceManager {
     private double tunjanganJabatan;
