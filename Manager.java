@@ -9,14 +9,14 @@ public class Manager extends PegawaiAbstract implements InterfaceManager {
         this.tunjanganJabatan = tunjanganJabatan;
     }
 
-    // IMPLEMENTASI dari Abstract Method (PegawaiAbstract)
+    // method abstract (PegawaiAbstract)
     @Override
     public double hitungGajiBersih() {
         // Gaji Bersih = Gaji Pokok + Tunjangan + Bonus
         return gajiPokok + tunjanganJabatan + hitungBonus(); 
     }
 
-    // IMPLEMENTASI dari Interface Method (IManager)
+    // method interface (IManager)
     @Override
     public double hitungBonus() {
         // Bonus Manager adalah 10% dari Tunjangan Jabatan
